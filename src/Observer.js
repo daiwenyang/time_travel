@@ -1,4 +1,4 @@
-// 简单版观察者模式；
+// 简单版观察者模式；queue可以更改为对象，对应不同的事件类型
 class Subject{
     queue=[];
     subscribe(...fun){
@@ -34,4 +34,3 @@ Tom.pulish('这是第一次通知');
 console.log('去掉jerry1的订阅');
 Tom.unsubscribe(jerry1.read);
 Tom.pulish('这是第二次通知');
-
