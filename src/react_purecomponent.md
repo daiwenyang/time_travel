@@ -8,9 +8,4 @@ React.PureComponent 中的 shouldComponentUpdate() 仅作对象的浅层比较�
 
 此外，React.PureComponent 中的 shouldComponentUpdate() 将跳过所有子组件树的 prop 更新。因此，请确保所有子组件也都是“纯”的组件。
 
-React.memo
-const MyComponent = React.memo(function MyComponent(props) {
-  /* 使用 props 渲染 */
-});
-
 抄录于[官方链接](https://react.docschina.org/docs/react-api.html#reactpurecomponent)
