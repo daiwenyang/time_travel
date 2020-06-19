@@ -5,3 +5,4 @@
 ### [简单观察者模式](https://github.com/daiwenyang/time_travel/blob/master/src/Observer.js)
 ### [vue-router小知识记录](https://github.com/daiwenyang/time_travel/blob/master/src/vue_router.js)
 ### [purecomponent说明](https://github.com/daiwenyang/time_travel/blob/master/src/react_purecomponent.md)
+### [react key采用索引导致的异常示例](https://react.docschina.org/redirect-to-codepen/reconciliation/index-used-as-key)
