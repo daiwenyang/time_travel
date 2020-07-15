@@ -9,3 +9,4 @@
 ### [purecomponent说明](https://github.com/daiwenyang/time_travel/blob/master/src/react_purecomponent.md)
 ### [react key采用索引导致的异常示例](https://react.docschina.org/redirect-to-codepen/reconciliation/index-used-as-key)
 ### [react Portal 提供了一种将子节点渲染到存在于父组件以外的 DOM 节点的优秀的方案,例如modal](https://react.docschina.org/docs/portals.html)
+### [require('图片url')不显示问题](https://github.com/daiwenyang/time_travel/blob/master/src/require_image.md)
