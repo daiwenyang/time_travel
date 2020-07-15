@@ -4,7 +4,7 @@
 #### 经过定位后发现，小于10k的图片返回的是base64值，大于10k返回的是图片经过编译后的路径，但是编译后的路径带有hash值等，在image中href值会发生变化。导致图片加载不出；
 
 ### 解决方案：
-#### 1、图片名称不变，改变vue.config.js:filenameHashing:false,=
+#### 1、图片名称不变，改变vue.config.js:filenameHashing:false
 #### 2、改变url-loader配置，limit值设置大点（推荐）：
     
     // chainWebpack: config => {
