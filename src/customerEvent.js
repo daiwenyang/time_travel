@@ -19,6 +19,8 @@ let ce = new CustomEvent("test", {
 // 举例：vue的v-model，如果手动改变input的value值，不会触发input事件，导致双向绑定失败，
 // 但是可以用dispatchEvent方式触发input事件，实现绑定值得更改；
 
-// 参考链接 ： https://juejin.im/post/6844904069820055560
+// 参考链接 ：掘金关于自定义事件的介绍 https://juejin.im/post/6844904069820055560 
+
+// 事件总线的实现模块events: https://github.com/Gozala/events
 
 
