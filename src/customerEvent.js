@@ -14,7 +14,6 @@ let ce = new CustomEvent("test", {
       window.dispatchEvent(ce);
     }
   )
-// 采用设计模式
 //   Event 与 CustomEvent 的主要区别在于CustomEvent可以传递自定义参数，而event只能传递触发事件的对象信息，
 // 举例：vue的v-model，如果手动改变input的value值，不会触发input事件，导致双向绑定失败，
 // 但是可以用dispatchEvent方式触发input事件，实现绑定值得更改；
