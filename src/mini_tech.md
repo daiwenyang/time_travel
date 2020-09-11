@@ -18,3 +18,9 @@
 4. 下载超链接不会重新刷新路由的原因:
 	vue history模式下，服务器配置，当匹配不到资源的时候，
 	才会进行返回默认的html,所以如果下载有对应的资源就不会跳转到404
+
+5. react项目class背景图的引入方式:
+	（1）background: ~"url('@/assets/wangan.png')";
+	（2）以相对路径引入，但是不方便代码移动；
+6、umi或ant pro中 app.ts以及global.ts文件探索：
+	
