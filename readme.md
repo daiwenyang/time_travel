@@ -12,7 +12,7 @@
 ### [require('图片url')不显示问题](https://github.com/daiwenyang/time_travel/blob/master/src/require_image.md)
 ### [自定义事件](https://github.com/daiwenyang/time_travel/blob/master/src/customerEvent.js)
 ### [细小知识点记录](https://github.com/daiwenyang/time_travel/blob/master/src/mini_tech.md)
+### [数独简易版小游戏项目](https://github.com/daiwenyang/sudoku)
 ## 后续更新
 ### [同步模块模式]()
 ### [异步模块模式]()
-### [数独简易版小游戏项目]()
