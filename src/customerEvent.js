@@ -21,5 +21,3 @@ let ce = new CustomEvent("test", {
 // 参考链接 ：掘金关于自定义事件的介绍 https://juejin.im/post/6844904069820055560 
 
 // 事件总线的实现模块events: https://github.com/Gozala/events
-
-

@@ -16,3 +16,5 @@
 ## 后续更新
 ### [同步模块模式]()
 ### [异步模块模式]()
+### [js异步编程学习]()
+### [函数式组件](https://github.com/daiwenyang/time_travel/blob/master/src/functionComponent.js)
