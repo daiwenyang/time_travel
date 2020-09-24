@@ -22,5 +22,39 @@
 5. react项目class背景图的引入方式:
 	（1）background: ~"url('@/assets/wangan.png')";
 	（2）以相对路径引入，但是不方便代码移动；
-6、umi或ant pro中 app.ts以及global.ts文件探索：
+
+6. umi或antd pro中 app.ts以及global.ts文件探索：
+
+7. react的事件并没有直接绑定到元素上，所以阻止时间冒泡不能成功，当点击元素时，会先触发原生事件，然后触发react的合成事件，这样会导致一些问题出现，可以有两种处理方式；
+	```
+		<!-- 1、不将合成事件与原生事件混用 -->
+		componentDidMount() {
+			document.body.addEventListener('click', e => { 
+				this.setState({ 
+				active: false, 
+				}); 
+			}); 
+			document.querySelector('.code').addEventListener('click', e => { 
+				e.stopPropagation();
+			}) 
+		} 
+		componentWillUnmount() { 
+			document.body.removeEventListener('click'); 
+			document.querySelector('.code').removeEventListener('click'); 
+		} 
+	
+		<!-- 2、通过e.target判断避免 -->
+
+		componentDidMount() {
+			document.body.addEventListener('click', e => { 
+				if (e.target && e.target.matches('div.code')) { 
+					return; 
+				} 
+				this.setState({ 
+					active: false, 
+				}); 
+			}); 
+		}
+	
+	```
 	
