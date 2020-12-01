@@ -15,6 +15,7 @@
 ### [数独简易版小游戏项目](https://github.com/daiwenyang/sudoku)
 ### [函数式组件](https://github.com/daiwenyang/time_travel/blob/master/src/functionComponent.js)
 ### [react将组件渲染到父组件之外的实现Portals](https://github.com/daiwenyang/time_travel/blob/master/src/portal.md)
+### [js二进制基础概念](https://github.com/daiwenyang/time_travel/blob/master/src/binary_basic.md)
 ## 后续更新
 ### [同步模块模式]()
 ### [异步模块模式]()
