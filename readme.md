@@ -19,6 +19,7 @@
 ### [动态规划](https://github.com/daiwenyang/time_travel/blob/master/src/dynamic_programming.md)
 ### [文件监听器](https://github.com/daiwenyang/time_travel/blob/master/src/watcher.md)
 ### [koa搭建的web接口，sqlite数据库](https://github.com/daiwenyang/node_pratice)
+### [node构建命令行](https://github.com/daiwenyang/node-cli.md)
 ## 后续更新
 ### [同步模块模式]()
 ### [异步模块模式]()
